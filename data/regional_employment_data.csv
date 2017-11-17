@@ -1,0 +1,98 @@
+naics,employment,establishments,wage,meth,SubSector,type
+111,8246,1915,31197.5,sa,Crop Production,E
+112,1238,463,34909.75,sa,Animal Production and Aquaculture,E
+113,86,26,28146,r,Forestry and Logging,E
+114,61,24,29107,r,"Fishing, Hunting and Trapping",E
+115,1512,421,35105,r,Support Activities for Agriculture and Forestry,E
+211,108,24,139414,sa,Oil and Gas Extraction,E
+212,843,55,60624,r,Mining (except Oil and Gas),E
+213,464,106,90671,r,Support Activities for Mining,E
+221,10582,467,72526.67,sa,Utilities ,D
+236,49166,15943,67257,r,Construction of Buildings,P
+237,16611,2110,53286,sa,Heavy and Civil Engineering Construction,P
+238,89258,22872,64449,r,Specialty Trade Contractors,P
+311,25651,1395,49467.5,sa,Food Manufacturing,P
+312,2598,104,51568,r,Beverage and Tobacco Product Manufacturing,P
+313,1783,190,67078,r,Textile Mills,P
+314,2795,324,45446,sa,Textile Product Mills,P
+315,5921,576,39994,r,Apparel Manufacturing,P
+316,922,240,54788.5,sa,Leather and Allied Product Manufacturing,P
+321,3702,487,40684.5,sa,Wood Product Manufacturing,P
+322,8847,303,73687.5,sa,Paper Manufacturing,P
+323,15718,1488,54018,r,Printing and Related Support Activities,P
+324,3987,85,100808.5,sa,Petroleum and Coal Products Manufacturing,P
+325,32432,967,107345,r,Chemical Manufacturing,P
+326,10994,352,65873,r,Plastics and Rubber Products Manufacturing,P
+327,8386,449,57643.5,sa,Nonmetallic Mineral Product Manufacturing,P
+331,7841,199,66450.5,sa,Primary Metal Manufacturing,P
+332,28474,1555,62245,r,Fabricated Metal Product Manufacturing,P
+333,20042,1127,71191,r,Machinery Manufacturing,P
+334,37704,1034,81659.5,sa,Computer and Electronic Product Manufacturing,P
+335,8661,432,67060,sa,"Electrical Equipment, Appliance, and Component Manufacturing",P
+336,14632,322,66110.5,sa,Transportation Equipment Manufacturing,P
+337,6040,530,57536,r,Furniture and Related Product Manufacturing,P
+339,22843,2590,81979,sa,Miscellaneous Manufacturing,P
+423,82351,11452,75460,r,"Merchant Wholesalers, Durable Goods ",D
+424,64564,7544,88977,r,"Merchant Wholesalers, Nondurable Goods ",D
+441,28557,2711,52778,r,Motor Vehicle and Parts Dealers ,C
+442,12591,2773,32267.5,sa,Furniture and Home Furnishings Stores ,C
+443,12238,2724,49012.5,sa,Electronics and Appliance Stores ,C
+444,21792,2374,33647,r,Building Material and Garden Equipment and Supplies Dealers ,C
+445,72301,7290,23058,r,Food and Beverage Stores ,C
+446,27045,3685,36248,r,Health and Personal Care Stores ,C
+447,11263,1303,21153,r,Gasoline Stations ,C
+448,37318,6017,20277,r,Clothing and Clothing Accessories Stores ,C
+451,13947,2896,18849.75,sa,"Sporting Goods, Hobby, Musical Instrument, and Book Stores ",C
+452,45362,1217,20814,r,General Merchandise Stores ,C
+453,25171,7988,22861,r,Miscellaneous Store Retailers ,C
+454,12277,2238,69701,r,Nonstore Retailers ,C
+481,1081,61,70782,r,Air Transportation,D
+482,2852,53,0,nd,Rail Transportation,D
+483,201,31,87621,r,Water Transportation,D
+484,17550,2915,53297,r,Truck Transportation,D
+485,15772,1399,25267,r,Transit and Ground Passenger Transportation,C
+486,481,33,100990,r,Pipeline Transportation,D
+487,269,36,21987.25,sa,Scenic and Sightseeing Transportation,C
+488,24149,3020,60232.71,sa,Support Activities for Transportation,C
+491,11855,397,39509.75,sa,Postal Service,D
+492,3328,648,40067,r,Couriers and Messengers,D
+493,6698,596,27611,sa,Warehousing and Storage,D
+511,26231,2049,80687,sa,Publishing Industries (except Internet),P
+512,7102,2323,34837,r,Motion Picture and Sound Recording Industries,C
+515,12628,370,88839,r,Broadcasting (except Internet),C
+517,19786,3218,102271,sa,Telecommunications,C
+518,11150,765,79691,r,"Data Processing, Hosting, and Related Services",C
+519,7000,639,55487.67,sa,Other Information Services,C
+522,49302,5381,43869.5,sa,Credit Intermediation and Related Activities,C
+523,46876,7535,151167,r,"Securities, Commodity Contracts, and Other Financial Investments and Related Activities",C
+524,57103,5381,66682.38,sa,Insurance Carriers and Related Activities,C
+525,15543,554,0,nd,"Funds, Trusts, and Other Financial Vehicles ",C
+531,74447,16664,44529.25,sa,Real Estate,C
+532,15629,2649,49379,sa,Rental and Leasing Services,C
+533,798,58,122952,sa,Lessors of Nonfinancial Intangible Assets (except Copyrighted Works),C
+541,305166,64212,66482.75,sa,"Professional, Scientific, and Technical Services",C
+551,6510,1967,144884,sa,Management of Companies and Enterprises,C
+561,221280,75550,37466,r,Administrative and Support Services,C
+562,9162,893,61430,r,Waste Management and Remediation Services,D
+611,246493,6959,61686,r,Educational Services,C
+621,178388,29283,60513,r,Ambulatory Health Care Services,C
+622,109278,504,64189,r,Hospitals,C
+623,66741,907,43375.17,sa,Nursing and Residential Care Facilities,C
+624,68005,8638,40814.63,sa,Social Assistance,C
+711,21978,4571,40939.75,sa,"Performing Arts, Spectator Sports, and Related Industries",C
+712,4482,602,33617.13,sa,"Museums, Historical Sites, and Similar Institutions",C
+713,26587,3441,25735.79,sa,"Amusement, Gambling, and Recreation Industries",C
+721,27177,1371,31042,r,Accommodation,C
+722,129424,9927,18083,r,Food Services and Drinking Places,C
+811,39472,13109,45115,r,Repair and Maintenance,C
+812,42452,13725,23668,r,Personal and Laundry Services,C
+813,89204,19836,38739,r,"Religious, Grantmaking, Civic, Professional, and Similar Organizations",C
+921,41740,886,0,nd,"Executive, Legislative, and Other General Government Support ",C
+922,54451,1115,0,nd,"Justice, Public Order, and Safety Activities ",C
+923,24766,300,0,nd,Administration of Human Resource Programs ,C
+924,14546,244,0,nd,Administration of Environmental Quality Programs ,C
+925,4251,161,0,nd,"Administration of Housing Programs, Urban Planning, and Community Development ",C
+926,13039,257,0,nd,Administration of Economic Programs ,C
+927,4,2,0,nd,Space Research and Technology ,P
+928,28066,362,0,nd,National Security and International Affairs ,C
+999,1598,321,28531,r,Other,C
