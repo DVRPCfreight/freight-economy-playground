@@ -261,7 +261,7 @@ function createBubbleChart() {
          * details of a bubble in the tooltip.
          */
         // Change the circle's outline to indicate hover state.
-        d3.select(this).attr('stroke', 'black');
+        d3.select(this).attr('stroke', 'black').attr('stroke-width', 1.5);
 
         // Show the tooltip
         tooltip.showTooltip(tooltipContent(d), d3.event);
@@ -273,7 +273,7 @@ function createBubbleChart() {
          */
         // Reset the circle's outline back to its original color.
         var originalColor = d3.rgb(fillColorScale(d.fill_color_group)).darker()
-        d3.select(this).attr('stroke', originalColor);
+        d3.select(this).attr('stroke', originalColor).attr('stroke-width', 0.5);
 
         // Hide the tooltip
         tooltip.hideTooltip();
@@ -333,7 +333,7 @@ function createBubbleChart() {
             // .attr('stroke', function (d) { return d3.rgb(fillColorScale(d.fill_color_group)).darker(); })
             .attr('fill', '#efefef')
             .attr('stroke', function() { return d3.rgb('#efefef').darker(); })
-            .attr('stroke-width', 2)
+            .attr('stroke-width', 0.5)
             .on('mouseover', showTooltip)
             .on('mouseout', hideTooltip);
 
@@ -359,7 +359,7 @@ function createBubbleChart() {
         // Configure the force layout holding the bubbles apart
         forceSim = d3.forceSimulation()
             .nodes(nodes)
-            .velocityDecay(0.3)
+            .velocityDecay(0.22)
             .on("tick", ticked);
         
         if (!isStatic) {
@@ -558,7 +558,7 @@ function createBubbleChart() {
             .force("y", targetForceY);
 
         // Restart the force layout simulation
-        forceSim.alphaTarget(1).restart();
+        forceSim.alphaTarget(0).restart();
     };
     
     // Return the bubbleChart function from closure.

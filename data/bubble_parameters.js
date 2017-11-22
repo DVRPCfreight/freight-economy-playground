@@ -4,7 +4,7 @@ var BUBBLE_PARAMETERS = {
     "footer_text": "Concept for PFF Freight Employment tool",
     "width": 940,
     "height": 700,
-    "force_strength": 0.04,
+    "force_strength": 0.06,
     "force_type": "charge",
     "radius_field": "employment",
     "numeric_fields": ["employment", "establishments", "wage"],
